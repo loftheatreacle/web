@@ -1,0 +1,85 @@
+#mainwrapper{
+  min-height: 100vh;
+  
+  background: radial-gradient(at top, #6441a5, black 70%);
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 100px auto;
+}
+#navbargridwrapper{
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+}
+#navbarwrapper{
+  border-bottom: 20px solid rgba(0, 0, 0, 0.5);
+}
+#navbarbrand{
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+#navbartime{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #aaaaaa;
+}
+#navbardropdown a{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #aaaaaa;
+}
+#navbar{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.sidebarlinks{
+  display: inline-block;
+  height: 170px;
+  width: 200px;
+  background: gray;
+  margin: 10px;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+}
+.sidebarlinks:hover{
+  border: 5px solid white;
+  border-radius: 5px;
+}
+.textsidebarlinks{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  background: none;
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.textsidebarlinks:hover{
+  background: white;
+  color: #6441a5;
+  text-decoration: none;
+}
+#sidebarwrapper{
+  margin: 50px;
+}
+#navbaroptions{
+}
+#navbartime{
+}
+#contentwrapper{
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #dddddd;
+  padding: 20px;
+}
+#contentwrapper img{
+  width: 100%;
+}
